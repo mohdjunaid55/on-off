@@ -3,17 +3,16 @@
 using namespace std;
 
 int main() {
-	int c;
-	cin>>c;
-	for(int i=0;i<c;i++){
+	int t;
+	cin>>t;
+	while(t--){
 	    int  n;
 	    cin>>n;
 	    string a;
 	    cin>>a;
 	    string b;
 	    cin>>b;
-	    int p=0;
-	    int q=0;
+	    int p=0,q=0;
 	    for(int i=0;i<n;i++){
 	        if(a[i]=='0'){
 	            p++;
